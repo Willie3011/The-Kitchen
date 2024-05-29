@@ -61,3 +61,24 @@
       - Allow users to opt-in or opt-out of notifications.
 10. Responsive Design
       - Ensure the application is accessible and fully functional on various devices (desktops, tablets, smartphones).
+
+### Non-Functional Requirements
+
+1. Perfomance
+     - Ensure the application loads quickly and handles concurrent users efficiently.
+2. Security
+     - Encrypt user data and securely store it.
+     - Comply with data protection regulations (e.g., GDPR).
+3. Usability
+     - Design an intuitive and user-friendly interface.
+     - Ensure the design is consistent and accessible to users with disabilities.
+4. Reliability
+     - Maintain high availability and minimal downtime.
+     - Implement backup and recovery mechanisms to prevent data loss.
+5. Scalability
+     - Design the application to scale to accommodate future growth in users and orders.
+6. Maintainability
+     - Write well-documented code following best practices to facilitate maintenance and updates.
+
+     
+     
