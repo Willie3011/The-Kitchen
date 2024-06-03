@@ -4,11 +4,11 @@ import Footer from '../Footer/Footer';
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className='overflow-x-hidden w-screen'>
       <Header />
-      <main className='container h-screen w-screen'>{children}</main>
+      <main className='container h-dvh w-screen'>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 
