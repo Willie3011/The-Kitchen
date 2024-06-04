@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { RiMenu3Line } from "react-icons/ri";
 
@@ -78,15 +78,15 @@ function Header() {
           <li
             onClick={handleMenu}
             className="px-2 h-14 w-screen flex items-center justify-center rounded-sm transition ease-in-out duration-100">
-            <button className="bg-yellow-400 px-4 py-2 rounded-sm h-10 w-full text-sm font-semibold text-white transition ease-in-out duration-300 hover:opacity-80">
-              Sign Up
+            <button  className="bg-yellow-400 px-4 py-2 rounded-sm h-10 w-full text-sm font-semibold text-white transition ease-in-out duration-300 hover:opacity-80">
+              <Link to="/signup">Sign up</Link>
             </button>
           </li>
         </ul>
       </div>
       <div className="flex items-center gap-3 md:gap-5">
-        <button className="bg-yellow-400 px-4 py-2 rounded-md h-10 w-max text-sm font-semibold text-white transition ease-in-out duration-300 hover:opacity-80 hidden md:flex">
-          Sign Up
+        <button className="border border-yellow-400 px-4 py-2 rounded-3xl w-max text-sm font-semibold text-yellow-400 transition ease-in-out duration-300 hover:bg-yellow-400 hover:text-white hidden md:flex">
+        <Link to="/signup">Sign up</Link>
         </button>
         <button className="text-lg md:text-2xl">
           <MdOutlineShoppingBag />

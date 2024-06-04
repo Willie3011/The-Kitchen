@@ -7,6 +7,7 @@ import Cart from './Pages/Cart/Cart';
 import Menu from './Pages/Menu/Menu';
 import Reviews from './Pages/Reviews/Reviews';
 import Layout from './Components/Layout/Layout';
+import Signup from './Pages/Signup/Signup';
 function App() {
   const router = createBrowserRouter([
     {
@@ -48,6 +49,14 @@ function App() {
           <Cart />
         </Layout>
       ),
+    },
+    {
+      path: '/signup',
+      element: (
+        <Layout>
+          <Signup />
+        </Layout>
+      )
     }
 ]);
   return <RouterProvider router={router}/>
