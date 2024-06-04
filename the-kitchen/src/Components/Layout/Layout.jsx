@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <div className='overflow-x-hidden w-screen'>
       <Header />
-      <main className='container h-dvh w-screen'>{children}</main>
+      <main className='container box-border h-dvh w-screen p-4'>{children}</main>
       <Footer />
     </div>
   );
