@@ -11,7 +11,7 @@ import Signup from './Pages/Signup/Signup';
 function App() {
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: '/The-Kitchen/',
       element: (<Layout>
         <Home/>
         </Layout>
@@ -19,7 +19,7 @@ function App() {
       errorElement: <div>404: Page Not Found</div>
     },
     {
-      path: '/about',
+      path: '/The-Kitchen/about',
       element: (
         <Layout>
           <About />
@@ -27,7 +27,7 @@ function App() {
       ),
     },
     {
-      path: '/menu',
+      path: '/The-Kitchen/menu',
       element: (
         <Layout>
           <Menu />
@@ -35,7 +35,7 @@ function App() {
       ),
     },
     {
-      path: '/reviews',
+      path: '/The-Kitchen/reviews',
       element: (
         <Layout>
           <Reviews />
@@ -43,7 +43,7 @@ function App() {
       ),
     },
     {
-      path: '/cart',
+      path: '/The-Kitchen/cart',
       element: (
         <Layout>
           <Cart />
@@ -51,7 +51,7 @@ function App() {
       ),
     },
     {
-      path: '/signup',
+      path: '/The-Kitchen/signup',
       element: (
         <Layout>
           <Signup />
